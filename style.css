@@ -1,0 +1,79 @@
+body {
+    background: rgb(213, 235, 236);
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 65px;
+}
+
+#box {
+    height: 50em;
+    width: 50em;
+    position: relative;
+    /*border: 1px solid red;*/
+    margin: auto;
+    margin-top: 60px;
+
+}
+
+#ball {
+    background: black;
+    width: 250px;
+    height: 250px;
+    color: white;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 90%;
+    margin: auto;    
+    /*position: absolute;
+    top: 40%;
+    right: 30%;
+    bottom: 50%;
+    display: block;*/
+}
+
+#pergunta {
+    display: flex;
+    margin: 40px 50px 20px;
+    /*border: 1px solid red; */
+    height: 5em;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#input {
+    margin: 0 50px 5px 50px;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+}
+
+#enviar {
+    margin: auto;
+    padding: 5px;
+    background: white;
+    border: 1px solid gray;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#resultado {
+    margin: 0px 40px 75px 50px;
+    /*border: 1px solid red;*/
+    height: 3em;
+    padding: 30px;
+    text-align: center;
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    
+}
