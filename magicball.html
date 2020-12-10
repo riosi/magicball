@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Magic Ball</title>
     <link rel="stylesheet" href="style.css">
-    <script type="text/javascript" src="magicball.js"></script>
+   
 </head>
 <body>
     <div id="box">
@@ -13,12 +13,12 @@
         <h1>Magic 8 Ball</h1>
     </div>
     <div id="pergunta">
-        <label for="duvida"></label>
-        <input type="text" id="input" value="Faça sua pergunta!">
-        <input type="submit" id="enviar">
+        <input type="text" id="duvida" placeholder="Faça sua pergunta!">
+        <input type="button" onclick="question()" id="enviar" value="enviar">
     </div>
-    <div id="resultado">mano o resultado vai ficar aqui</div>
+    <div id="resultado"></div>
     </div>
 
 </body>
+<script type="text/javascript" src="magicball.js"></script>
 </html>
